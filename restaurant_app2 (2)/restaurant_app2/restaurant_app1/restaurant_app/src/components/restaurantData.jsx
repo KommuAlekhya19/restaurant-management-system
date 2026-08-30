@@ -1,0 +1,75 @@
+export const initialTables = [
+  // --- Ground Floor: Main Dining (8 Tables) ---
+  { id: 1, name: 'Table 1', floor: 'Ground Floor', category: 'Ground Floor (Main Dining)', location: 'Near Main Entrance', capacity: 4, status: 'Vacant', items: [] },
+  { id: 2, name: 'Table 2', floor: 'Ground Floor', category: 'Ground Floor (Main Dining)', location: 'Window Side View', capacity: 4, status: 'Vacant', items: [] },
+  { id: 3, name: 'Table 3', floor: 'Ground Floor', category: 'Ground Floor (Main Dining)', location: 'Family Section Corner', capacity: 6, status: 'Vacant', items: [] },
+  { id: 4, name: 'Table 4', floor: 'Ground Floor', category: 'Ground Floor (Main Dining)', location: 'Near Cash Counter', capacity: 4, status: 'Vacant', items: [] },
+  { id: 5, name: 'Table 5', floor: 'Ground Floor', category: 'Ground Floor (Main Dining)', location: 'Indoor Center', capacity: 2, status: 'Vacant', items: [] },
+  { id: 6, name: 'Table 6', floor: 'Ground Floor', category: 'Ground Floor (Main Dining)', location: 'Indoor Corner Booth', capacity: 4, status: 'Vacant', items: [] },
+  { id: 7, name: 'Table 7', floor: 'Ground Floor', category: 'Ground Floor (Main Dining)', location: 'Heritage Pillar Side', capacity: 4, status: 'Vacant', items: [] },
+  { id: 8, name: 'Table 8', floor: 'Ground Floor', category: 'Ground Floor (Main Dining)', location: 'Classic Archway', capacity: 6, status: 'Vacant', items: [] },
+
+  // --- Ground Floor: Balcony Section (8 Tables) ---
+  { id: 9, name: 'Balcony 1', floor: 'Ground Floor', category: 'Balcony (Street View)', location: 'Street Corner View', capacity: 2, status: 'Vacant', items: [] },
+  { id: 10, name: 'Balcony 2', floor: 'Ground Floor', category: 'Balcony (Street View)', location: 'Rail Side Left', capacity: 2, status: 'Vacant', items: [] },
+  { id: 11, name: 'Balcony 3', floor: 'Ground Floor', category: 'Balcony (Street View)', location: 'Center Balcony', capacity: 4, status: 'Vacant', items: [] },
+  { id: 12, name: 'Balcony 4', floor: 'Ground Floor', category: 'Balcony (Street View)', location: 'Rail Side Right', capacity: 2, status: 'Vacant', items: [] },
+  { id: 13, name: 'Balcony 5', floor: 'Ground Floor', category: 'Balcony (Street View)', location: 'Sunset View Corner', capacity: 4, status: 'Vacant', items: [] },
+  { id: 14, name: 'Balcony 6', floor: 'Ground Floor', category: 'Balcony (Street View)', location: 'Quiet Nook', capacity: 2, status: 'Vacant', items: [] },
+  { id: 15, name: 'Balcony 7', floor: 'Ground Floor', category: 'Balcony (Street View)', location: 'Breeze Overlook', capacity: 2, status: 'Vacant', items: [] },
+  { id: 16, name: 'Balcony 8', floor: 'Ground Floor', category: 'Balcony (Street View)', location: 'Moonlight Balcony', capacity: 4, status: 'Vacant', items: [] },
+
+  // --- First Floor: Indoor AC Hall (8 Tables) ---
+  { id: 17, name: 'AC Hall 1', floor: 'First Floor', category: 'Indoor AC Hall', location: 'Near Reception', capacity: 4, status: 'Vacant', items: [] },
+  { id: 18, name: 'AC Hall 2', floor: 'First Floor', category: 'Indoor AC Hall', location: 'AC Vent Center', capacity: 4, status: 'Vacant', items: [] },
+  { id: 19, name: 'AC Hall 3', floor: 'First Floor', category: 'Indoor AC Hall', location: 'VIP Booth', capacity: 6, status: 'Vacant', items: [] },
+  { id: 20, name: 'AC Hall 4', floor: 'First Floor', category: 'Indoor AC Hall', location: 'Pillar Side', capacity: 2, status: 'Vacant', items: [] },
+  { id: 21, name: 'AC Hall 5', floor: 'First Floor', category: 'Indoor AC Hall', location: 'Inner Gallery', capacity: 4, status: 'Vacant', items: [] },
+  { id: 22, name: 'AC Hall 6', floor: 'First Floor', category: 'Indoor AC Hall', location: 'Private Dining Hall', capacity: 8, status: 'Vacant', items: [] },
+  { id: 23, name: 'AC Hall 7', floor: 'First Floor', category: 'Indoor AC Hall', location: 'Deluxe Lounge', capacity: 4, status: 'Vacant', items: [] },
+  { id: 24, name: 'AC Hall 8', floor: 'First Floor', category: 'Indoor AC Hall', location: 'Executive Suite', capacity: 6, status: 'Vacant', items: [] },
+
+  // --- First Floor: Rooftop Open Air (8 Tables) ---
+  { id: 25, name: 'Rooftop 1', floor: 'First Floor', category: 'Rooftop Open Air', location: 'Open Sky View', capacity: 4, status: 'Vacant', items: [] },
+  { id: 26, name: 'Rooftop 2', floor: 'First Floor', category: 'Rooftop Open Air', location: 'Starlight Corner', capacity: 2, status: 'Vacant', items: [] },
+  { id: 27, name: 'Rooftop 3', floor: 'First Floor', category: 'Rooftop Open Air', location: 'Center Canopy', capacity: 6, status: 'Vacant', items: [] },
+  { id: 28, name: 'Rooftop 4', floor: 'First Floor', category: 'Rooftop Open Air', location: 'Garden Edge', capacity: 4, status: 'Vacant', items: [] },
+  { id: 29, name: 'Rooftop 5', floor: 'First Floor', category: 'Rooftop Open Air', location: 'Romantic Gazebo', capacity: 2, status: 'Vacant', items: [] },
+  { id: 30, name: 'Rooftop 6', floor: 'First Floor', category: 'Rooftop Open Air', location: 'North Deck', capacity: 4, status: 'Vacant', items: [] },
+  { id: 31, name: 'Rooftop 7', floor: 'First Floor', category: 'Rooftop Open Air', location: 'Skyline Terrace', capacity: 4, status: 'Vacant', items: [] },
+  { id: 32, name: 'Rooftop 8', floor: 'First Floor', category: 'Rooftop Open Air', location: 'Cloud Nine Deck', capacity: 6, status: 'Vacant', items: [] }
+];
+
+export const menuItems = [
+  { id: 1, name: "Dragon Potato", category: "Starters", price: 180, image: "/Images/DragonPotato.png" },
+  { id: 2, name: "Chicken 65", category: "Starters", price: 220, image: "/Images/Chicken65.png" },
+  { id: 3, name: "Paneer Tikka", category: "Starters", price: 240, image: "/Images/PaneerTikka.png" },
+  { id: 4, name: "Mushroom Pepper Fry", category: "Starters", price: 190, image: "/Images/MushroomPepperFry.png" },
+  { id: 5, name: "Apollo Fish", category: "Starters", price: 260, image: "/Images/ApolloFish.png" },
+  { id: 6, name: "Veg Spring Rolls", category: "Starters", price: 160, image: "/Images/VegSpringRolls.png" },
+  { id: 7, name: "Mutton Juicy Biryani", category: "Main Course", price: 350, image: "/Images/MuttonJuicyBiryani.png" },
+  { id: 8, name: "Prawns Biryani", category: "Main Course", price: 320, image: "/Images/PrawnsBiryani.png" },
+  { id: 9, name: "Paneer Biryani", category: "Main Course", price: 240, image: "/Images/PaneerBiryani.png" },
+  { id: 10, name: "Veg Supreme Biryani", category: "Main Course", price: 210, image: "/Images/VegSupremeBiryani.png" },
+  { id: 11, name: "Mutton Rogan Josh", category: "Main Course", price: 340, image: "/Images/MuttonRoganJosh.png" },
+  { id: 12, name: "Butter Chicken", category: "Main Course", price: 280, image: "/Images/ButterChicken.png" },
+  { id: 13, name: "Dal Makhani", category: "Main Course", price: 180, image: "/Images/DalMakhani.png" },
+  { id: 14, name: "Kadai Veg", category: "Main Course", price: 210, image: "/Images/KadaiVeg.png" },
+  { id: 15, name: "Egg Masala", category: "Main Course", price: 200, image: "/Images/EggMasala.png" },
+  { id: 16, name: "Butter Naan", category: "Breads", price: 45, image: "/Images/ButterNaan.png" },
+  { id: 17, name: "Tandoori Roti", category: "Breads", price: 35, image: "/Images/TandooriRoti.png" },
+  { id: 18, name: "Garlic Naan", category: "Breads", price: 60, image: "/Images/GarlicNaan.png" },
+  { id: 19, name: "Plain Naan", category: "Breads", price: 40, image: "/Images/PlainNaan.png" },
+  { id: 20, name: "Laccha Paratha", category: "Breads", price: 50, image: "/Images/LacchaParatha.png" },
+  { id: 21, name: "Rumali Roti", category: "Breads", price: 30, image: "/Images/RumaliRoti.png" },
+  { id: 22, name: "Gulab Jamun", category: "Desserts", price: 90, image: "/Images/GulabJamun.png" },
+  { id: 23, name: "Double Ka Meetha", category: "Desserts", price: 110, image: "/Images/DoubleKaMeetha.png" },
+  { id: 24, name: "Vanilla Ice Cream", category: "Desserts", price: 80, image: "/Images/VanillaIceCream.png" },
+  { id: 25, name: "Ras Malai", category: "Desserts", price: 100, image: "/Images/RasMalai.png" },
+  { id: 26, name: "Virgin Mint Mojito", category: "Beverages", price: 130, image: "/Images/VirginMintMojito.png" },
+  { id: 27, name: "Thumps Up", category: "Beverages", price: 60, image: "/Images/ThumpsUp.png" },
+  { id: 28, name: "Blue Lagoon Mocktail", category: "Beverages", price: 120, image: "/Images/BlueLagoonMocktail.png" },
+  { id: 29, name: "Coke", category: "Beverages", price: 60, image: "/Images/coke.png" },
+  { id: 30, name: "Fresh Lime Soda", category: "Beverages", price: 90, image: "/Images/FreshLimeSoda.png" },
+  { id: 31, name: "Mango Milkshake", category: "Beverages", price: 140, image: "/Images/MangoMilkshake.png" }
+];
